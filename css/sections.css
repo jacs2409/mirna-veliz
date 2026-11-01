@@ -88,3 +88,26 @@
 
 /* Oculta la sección de imagen hasta que exista una infografía JPEG. */
 .infographic-visual[hidden] { display: none; }
+
+
+/* Nuevas secciones profesionales: mantiene intactos los estilos existentes. */
+.professional-details-header { margin-bottom: 28px; }
+.professional-details-header h2 { margin-bottom: 0; }
+.professional-details-panel {
+  max-width: 880px;
+  padding: 32px 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: white;
+}
+.professional-details-panel h3 { margin: 0 0 8px; font-family: var(--font-title); font-size: 1.55rem; }
+.professional-details-panel p { color: var(--muted); line-height: 1.9; }
+.professional-details-panel p:last-child { margin-bottom: 0; }
+.professional-details-panel strong { color: var(--text); }
+.professional-details-institution { color: var(--primary) !important; font-weight: 600; }
+.professional-details-alt { background: var(--soft); }
+.professional-services-list { margin: 16px 0 22px; padding-left: 22px; color: var(--muted); line-height: 1.9; }
+.professional-services-list li { padding-left: 4px; margin-bottom: 6px; }
+@media (max-width: 700px) {
+  .professional-details-panel { padding: 24px; }
+}

@@ -4,7 +4,7 @@
   .nav-links { gap: 15px; }
   .section { padding: 72px 0; }
 }
-@media (max-width: 700px) {
+@media (max-width: 1050px) {
   .container { width: min(100% - 36px, 540px); }
   .nav { min-height: 68px; }
   .menu-toggle { display: block; }
