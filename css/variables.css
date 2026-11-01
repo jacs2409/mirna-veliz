@@ -1,0 +1,17 @@
+:root {
+  /* Colores: modifica estas variables para cambiar toda la identidad visual. */
+  --background: #faf9f6;
+  --surface: #ffffff;
+  --soft: #f1f4ef;
+  --accent-soft: #e5ece4;
+  --primary: #34584a;
+  --primary-hover: #264437;
+  --text: #29392f;
+  --muted: #68776c;
+  --border: #dce4dc;
+  --font-body: "DM Sans", Arial, sans-serif;
+  --font-title: "Playfair Display", Georgia, serif;
+  --radius: 16px;
+  --max-width: 1100px;
+  --section-gap: 88px;
+}
