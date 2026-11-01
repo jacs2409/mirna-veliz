@@ -1,1 +1,0 @@
-El video se insertará desde YouTube en index.html cuando esté publicado. No es necesario colocar un archivo de video en esta carpeta.
